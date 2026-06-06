@@ -7,7 +7,9 @@ import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
 import FAQPage from "./pages/faq";
 import BlogPage from "./pages/blog";
-
+import ProjectsPage from "./pages/ProjectsPage";
+import ProjectDetailsPage from "./pages/ProjectDetailsPage";
+import AllProjectsPage from "./pages/AllProjectsPage";
 import aikaLogo from "./assets/aika.png";
 
 const navItems = [
@@ -15,6 +17,7 @@ const navItems = [
   { label: "About", path: "/about" },
   { label: "FAQ", path: "/faq" },
   { label: "Blog", path: "/blog" },
+  { label: "Projects", path: "/projects" },
   { label: "Contact", path: "/contact" },
 ];
 
@@ -123,7 +126,10 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/projects/:id" element={<ProjectDetailsPage />} />
           <Route path="*" element={<HomePage />} />
+          <Route path="/projects/all" element={<AllProjectsPage />} />
         </Routes>
       </div>
     </BrowserRouter>

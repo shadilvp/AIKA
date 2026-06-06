@@ -4,6 +4,7 @@ import AboutPage from "./about";
 import FAQPage from "./faq";
 import BlogPage from "./blog";
 import ContactPage from "./contact";
+import ProjectsPage from "./ProjectsPage";
 
 const slides = [
   {
@@ -96,6 +97,7 @@ export default function HomePage() {
       <AboutPage />
       <FAQPage />
       <BlogPage />
+      <ProjectsPage />
       <ContactPage />
     </main>
   );
