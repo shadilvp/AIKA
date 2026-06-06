@@ -36,7 +36,7 @@ export default function ContactPage() {
             </p>
 
             <p className="mt-4 text-sm text-slate-300">
-              shadilx8@gmail.com
+              rahmankv03@gmail.com
             </p>
           </div>
 
@@ -143,7 +143,7 @@ export default function ContactPage() {
           </h3>
 
           <a
-            href="mailto:shadilx8@gmail.com"
+            href="mailto:rahmankv03@gmail.com"
             className="mt-8 inline-flex border border-white px-8 py-4 text-sm uppercase tracking-[0.25em] transition hover:bg-white hover:text-black"
           >
             Contact Us

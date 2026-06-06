@@ -67,7 +67,7 @@ export default function HomePage() {
 
           <div className="mt-12 flex justify-center">
             <a
-              href="https://wa.me/917012890599?text=Hello%20AIKA%20Studio%2C%20I%20would%20like%20to%20inquire%20about%20your%20architecture%20and%20interior%20design%20services.%20Please%20let%20me%20know%20how%20I%20can%20get%20in%20touch%20with%20you.%20Thank%20you."
+              href="https://wa.me/917012890599?text=Hello%20AIKA%20Space%2C%20I%20would%20like%20to%20inquire%20about%20your%20architecture%20and%20interior%20design%20services.%20Please%20let%20me%20know%20how%20I%20can%20get%20in%20touch%20with%20you.%20Thank%20you."
               target="_blank"
               rel="noreferrer"
               className="inline-flex min-h-[54px] items-center justify-center rounded-full bg-white/60 px-10 text-sm font-semibold text-black backdrop-blur-sm transition hover:bg-white"

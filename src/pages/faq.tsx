@@ -104,7 +104,7 @@ export default function FAQPage() {
               />
 
               <a
-                href={`mailto:shadilx8@gmail.com?subject=AIKA Subscription&body=Subscribe: ${email}`}
+                href={`mailto:rahmankv03@gmail.com?subject=AIKA Subscription&body=Subscribe: ${email}`}
                 className="inline-flex h-[58px] items-center justify-center rounded-full bg-white px-8 text-sm font-semibold text-black transition hover:bg-slate-200"
               >
                 Subscribe
